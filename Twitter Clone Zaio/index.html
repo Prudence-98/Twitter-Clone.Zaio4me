@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://twitter.com/cdnjs?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_nav">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+<!--sidebar starts-->
+    <div class="sidebar">
+        <i class="fab fa twitter">Twitter Logo</i>
+        <div class="sidebarOption active">
+        <span class="material-symbols-outlined"> home </span>
+        <h2>Home</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> search </span>
+        <h2>Explore</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> notifications_none </span>
+        <h2>Notifications</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> mail_outline </span>
+        <h2>Messages</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> list_alt </span>
+        <h2>Lists</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> perm_identity </span>
+        <h2>Profile</h2>
+        </div>
+        <div class="sidebarOption">
+        <span class="material-symbols-outlined"> more_horiz </span>
+        <h2>More</h2>
+        </div>
+    <button class="sidebar_tweet">Tweet</button>
+    </div>
+<!-- sidebar ends-->
+ <!--feed starts-->
+ <div class="feed">
+    <div class="feed-header">
+    <h2>Home</h2>
+    </div>
+    <!--tweet box starts-->
+    <div class="tweetbox">
+    <form>
+    <div class="tweetbox_input">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsWBS-5Uyi8vFoaAwoZaE6ObRdJZJgmX-0JaY92eD1D6AL97GIVxLCPIeaZ8NUsqZ3Xc&usqp=CAU" alt="">
+    <input type="text" placeholder="What's happening?">
+    </div>
+    <button class="tweetbox_tweetbutton">Tweet</button>
+    </form>
+    </div>
+    <!--tweet box ends-->
+ </div>
+ <!--post starts-->
+ <div class="post">
+    <div class="post_avatar">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsWBS-5Uyi8vFoaAwoZaE6ObRdJZJgmX-0JaY92eD1D6AL97GIVxLCPIeaZ8NUsqZ3Xc&usqp=CAU" alt="">
+    </div>
+    <div class="post_body">
+    <div class="post_header">
+    <div class="post_headerText">
+    <h3>Lishandre Dubree
+    <span class="post_headerSpecial>
+    <span class="material-icons-outlined"> verified </span>
+    </span>
+    </h3>
+    </div>
+    <div class="post_headerDescription">
+        <p>As we learn how to code differently on a daily basis with multiple languages.</p>
+    </div>
+    </div>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.carexpert.com.au%2Fcar-reviews%2F2022-haval-h6-gt-review&psig=AOvVaw2FQzc9pnhUcade_NZdINmq&ust=1733429114146000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMD1quj0jooDFQAAAAAdAAAAABAE">
+    </div>
+    </div>
+    <div class="post_footer">
+    <span class="material-icons"> repeat </span>
+    <span class="material-icons"> favorite_border </span>
+    <span class="material-icons"> publish </span>
+    </div>
+    </div> 
+ <!--post ends-->
+
+ 
+ <!--feed ends-->
+ <!--widgets starts-->
+ <div class="widgets">
+    <div class="widgets_input">
+    <span class="material-icons widgets_searchIcon"> search </span>
+    <input type="text" placeholder="search Twitter">
+    </div>
+
+    <div class="widgets_widgetContainer">
+    <h2>What's happening?</h2>
+    <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">It&#39;s pretty awesome how dancing makes robots less intimidating. Looking forward to seeing more nontrivial Machine Learning on these robots. Credit: Boston Dynamics. <a href="https://t.co/wnB2i9qhdQ">pic.twitter.com/wnB2i9qhdQ</a></p>&mdash; Reza Zadeh (@Reza_Zadeh) <a href="https://twitter.com/Reza_Zadeh/status/1344009123004747778?ref_src=twsrc%5Etfw">December 29, 2020</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+ </div>
+ <!--widgets ends-->
+</body>
+</html>
